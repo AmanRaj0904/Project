@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}
+.main_header {
+  background-color: #24262a;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.nav_logo h2{
+    color: #ffffff;
+    padding: 0.5rem;
+    font-size: 1.7rem;
+}
+.nav_bar .nav_links {
+  display: flex;
+  gap: 2rem;
+  padding: 0.2rem 1rem;
+}
+.navbar_links {
+  font-size: 1.1rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
